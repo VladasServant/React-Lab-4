@@ -49,9 +49,9 @@ export default function ProfInf({onNext}) {
     }
 
     return (
-        <div style={{ fontFamily: 'sans-serif' }}>
+        <div style={{ fontFamily: 'sans-serif'}}>
 
-            <div style={{ marginTop: '20px', marginLeft: '180px', width: '20%', height: '50%', marginBottom: '-30px'}}>
+            <div style={{ marginTop: '20px', marginLeft: '130px', width: '20%', height: '50%', marginBottom: '-30px'}}>
                     <div style={{ marginTop: '10px'}}>
                         <div style={{ display: 'flex'}}>
                         <div style={{ display: 'flex'}}>
@@ -86,10 +86,10 @@ export default function ProfInf({onNext}) {
                 position: 'relative',
                 justifyContent: 'center',
                 alignItems: 'center',
-                width: '55%',
+                width: '57%',
                 height: '145px',
                 margin: '0 auto',
-                marginLeft: '180px',
+                marginLeft: '130px',
             }}> 
 
                 <h1 style={{ fontWeight: '800' }}> Profile info </h1>
@@ -235,13 +235,14 @@ export default function ProfInf({onNext}) {
                     <div style={{
                         display: 'flex',
                         flexDirection: 'column',
+                        justifyContent: 'center',
                         border: '2px solid rgb(0, 0, 0, 0.1)',
-                        width: '90%',
+                        width: '50%',
                         height: '100%',
                         marginTop: '20px',
                         borderRadius: '5px',
                         paddingLeft: '20px',
-                        paddingTop: '10px'
+                        paddingTop: '10px',
                     }}>
                         <h2 style={{ marginBottom: '-10px'}}>Contacts</h2>
                         <p style={{ color: 'rgba(0, 0, 0, 0.5)'}}>These contacts are used to inform about orders</p>
@@ -367,7 +368,7 @@ export default function ProfInf({onNext}) {
                         color: 'black',
                         border: '1px solid black',
                         borderRadius: '5px',
-                        marginTop: '40px'
+                        marginTop: '40px',
                     }}>
                         Go next →
                     </button>
